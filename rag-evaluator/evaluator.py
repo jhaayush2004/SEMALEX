@@ -8,7 +8,8 @@ class EnhancedEvaluator:
         self.model = SentenceTransformer(model_name)
         self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
         self.top_n_keywords = top_n_keywords
-    
+        
+    '''Defining evaluate_semantic_similarity'''
     def evaluate_semantic_similarity(self, reference_text, generated_text):
         reference_embedding = self.model.encode(reference_text).reshape(1, -1)
         generated_embedding = self.model.encode(generated_text).reshape(1, -1)
