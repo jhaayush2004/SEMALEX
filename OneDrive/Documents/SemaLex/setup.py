@@ -8,12 +8,11 @@ setup(
         'nltk',
         'numpy',
         'scikit-learn',
-        'sentence_transformers',
-        'torch'
+        'sentence_transformers'
     ],
     author='Ayush Shaurya Jha',
     author_email='shauryasphinx@gmail.com',
-    description="A comprehensive evaluation metric designed to measure the weighted similarity score by prioritizing semantic capture while also considering lexical alignment."
+    description='A comprehensive evaluation metric designed to measure the weighted similarity score by prioritizing semantic capture while also considering lexical alignment.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/jhaayush2004/SemaLex',
@@ -24,4 +23,6 @@ setup(
     ],
     python_requires='>=3.9',
 )
-# Designed on Python version: 3.10.9
+
+
+# Designed by using Python version: 3.10.9
