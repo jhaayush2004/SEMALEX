@@ -2,7 +2,7 @@
 
 
 
-# SEMALEX 1.1.0
+# SEMALEX 1.3.1
 ## Overview
 SEMALEX is a cutting-edge RAG (Retrieval-Augmented Generation) Evaluation Metric designed to measure the weighted similarity score by prioritizing semantic capture while also considering lexical alignment. This metric leverages advanced NLP techniques to evaluate the quality of generated text in comparison to reference text.
 
@@ -16,7 +16,7 @@ SEMALEX is a cutting-edge RAG (Retrieval-Augmented Generation) Evaluation Metric
 You can install the package using pip:
 
 ```bash
-pip install SEMALEX
+pip install SEMALEX==1.3.1
 ```
 ## Usage
 Here's how to use the SEMALEX Package:
@@ -36,6 +36,27 @@ metrics = evaluator.evaluate_all(reference_text, generated_text)
 # Print the results
 print(f"Final Score (SemaLex): {metrics['SemaLex']}")
 ```
+
+## Outcome Interpretation of SemaLex
+
+The SemaLex evaluation metrics provide a nuanced assessment of your Retrieval-Augmented Generation (RAG) model's performance based on both lexical alignment and semantic coherence with the reference text. Below is a detailed interpretation of the outcome ranges:
+
+### 0.0 - 0.3: Poor Performance
+An outcome in this range indicates that the model's output exhibits minimal lexical alignment with the reference text and lacks semantic relevance. The response fails to capture the core meaning or context, suggesting that the model struggles with both precise term matching and contextual understanding. This reflects a fundamental deficiency in both lexical and semantic performance.
+
+### 0.3 - 0.5: Average Performance
+Scores within this range suggest that the model's output demonstrates some degree of lexical alignment with the reference text but falls short in capturing the contextual meaning. While the model may exhibit partial adherence to key terms, the overall semantic coherence is insufficient. This implies that the model's responses are somewhat consistent with the reference terms but lack the depth and diversity required for meaningful results.
+
+### 0.5 - 0.8: Good Performance
+A score in this range signifies that the model's output achieves a commendable level of both lexical and semantic alignment with the reference text. The responses not only align with the key terms but also reflect a strong contextual understanding. This indicates that the RAG model performs well in generating diverse and contextually relevant results, demonstrating a robust balance between lexical accuracy and semantic depth.
+
+### 0.8 - 1.0: Excellent Performance
+Scores in this range denote exceptional performance, where the model's output aligns nearly perfectly both lexically and semantically with the reference text. This high level of alignment reflects superior corpus diversity and an almost flawless ability to capture and replicate the nuances of the reference context. The model excels in generating responses that are both contextually rich and lexically precise, indicating optimal performance.
+
+---
+
+These outcome ranges provide a comprehensive evaluation of the model's capability to generate responses that are both lexically accurate and semantically meaningful, aiding in the assessment of its overall effectiveness in producing high-quality results.
+
 ## Key Components
 
 - **`EnhancedEvaluator` Class:**  
@@ -90,12 +111,15 @@ Contributions are welcome!🎉 If you have any improvements, suggestions, or bug
 
 ### How to Contribute
 
-1. Fork the repository.
+1. Fork the repository (Visit Github Repository: [SEMALEX](https://github.com/jhaayush2004/SEMALEX))
 2. Create a new branch for your feature or bug fix.
 3. Make your changes.
 4. Run tests to ensure everything is working.
 5. Commit your changes and push to your fork.
 6. Create a pull request (PR) with a detailed description of your changes.
+
+## Do Visit :
+My Github Repository : [Ayush Shaurya Jha](https://github.com/jhaayush2004/SEMALEX)
 
 ## Contact
 
