@@ -1,0 +1,5 @@
+nltk
+numpy==1.24.1
+scikit-learn
+sentence_transformers
+torch==2.3.1
