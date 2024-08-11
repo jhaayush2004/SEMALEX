@@ -2,7 +2,7 @@
 
 
 
-# SEMALEX 0.1.2
+# SEMALEX 1.1.0
 ## Overview
 SEMALEX is a cutting-edge RAG (Retrieval-Augmented Generation) Evaluation Metric designed to measure the weighted similarity score by prioritizing semantic capture while also considering lexical alignment. This metric leverages advanced NLP techniques to evaluate the quality of generated text in comparison to reference text.
 
@@ -16,7 +16,7 @@ SEMALEX is a cutting-edge RAG (Retrieval-Augmented Generation) Evaluation Metric
 You can install the package using pip:
 
 ```bash
-pip install SEMALEX==0.1.2
+pip install SEMALEX
 ```
 ## Usage
 Here's how to use the SEMALEX Package:
