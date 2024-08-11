@@ -16,7 +16,7 @@ SEMALEX is a cutting-edge RAG (Retrieval-Augmented Generation) Evaluation Metric
 You can install the package using pip:
 
 ```bash
-pip install SEMALEX==0.1.1
+pip install SEMALEX==0.1.2
 ```
 ## Usage
 Here's how to use the SEMALEX Package:
